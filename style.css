@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    background: url('4.avif') no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 35px;
+    border: 4px solid black;
+    border-radius: 23px;
+}
+
+button {
+    font-size: 40px;
+    background-color: #d64161;
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.calculator {
+    display: inline-block;
+    background-color: white;
+    padding: 26px;
+    border-radius: 53px;
+    border-color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color:#fff
+}
+
+.footer .social .uil {
+    padding: 15px;
+    text-decoration: none;
+    height: 30px;
+    width: 50px;
+    color: #fff;
+}
